@@ -14,7 +14,7 @@ button {
 }
 
 a:hover {
-    text-decoration: none;
+    text-decoration: underline;
     cursor: pointer;
 }
 
@@ -93,6 +93,7 @@ a:hover {
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
+    opacity: .4;
 }
 
 .b-parallax {
@@ -651,7 +652,6 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
 }
 
 .container {
@@ -677,7 +677,32 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
+    color: black;
+}
+
+.citation-paragraph {
+    text-shadow: 1px 1px 13px black;
+}
+
+.footer-paragraph {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.footer-link-list {
+    list-style: none;
+    padding-left: 10px;
+}
+
+.citation-text {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.citation-author {
+    font-size: 20px;
+    font-weight: 300;
 }
 
 .tight-width-whitespace {
@@ -705,15 +730,25 @@ p {
 }
 
 h2 {
-    font-size: 22px;
-    line-height: 1.4em;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: black;
 }
 
 h3 {
-    font-size: 15px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #333333!important;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.4em;
+    color: white;
+    text-shadow: 0px 2px 0px #000000;
+}
+
+.bloc-4-title {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.4em;
+    color: black;
 }
 
 .med-width-whitespace {
@@ -723,11 +758,14 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #FFFFFF;
+    font-weight: 600;
+    text-shadow: 0px 4px #000000;
 }
 
 h4 {
-    color: #333333!important;
+    color: #FFFFFF;
+    font-weight: 800;
 }
 
 .icons {
@@ -771,15 +809,11 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
-}
-
-.tc-white {
-    color: #F3976C!important;
+    background-color: #933C10;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #933C10;
     color: #FFFFFF!important;
 }
 
@@ -797,7 +831,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #933C10!important;
 }
 
 .ltc-atomic-tangerine:hover {
