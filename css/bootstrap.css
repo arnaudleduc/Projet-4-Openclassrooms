@@ -3090,7 +3090,7 @@ label {
     display: inline-block;
     max-width: 100%;
     margin-bottom: 5px;
-    font-weight: 700
+    font-weight: 700;
 }
 
 input[type=search] {
@@ -3224,8 +3224,17 @@ input[type=search] {
     }
 }
 
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-margin {
+    margin-bottom: 20px;
+}
+
 .form-group {
-    margin-bottom: 15px
+    margin-bottom: 15px;
 }
 
 .checkbox,
