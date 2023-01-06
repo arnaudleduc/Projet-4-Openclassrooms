@@ -303,7 +303,8 @@ a:hover {
 }
 
 .navbar-brand img {
-    max-height: 200px;
+    height: 40px;
+    width: 217px;
     margin: 0 5px 0 0;
     display: inline;
 }
@@ -444,6 +445,11 @@ nav .caret {
 .mg-lg {
     margin-top: 10px;
     margin-bottom: 40px;
+}
+
+.logo-img {
+    width: 100px;
+    height: 100px;
 }
 
 .btn {

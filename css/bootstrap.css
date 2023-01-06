@@ -1440,6 +1440,11 @@ img {
     height: auto
 }
 
+.img-responsive {
+    width: 270px;
+    height: 270px;
+}
+
 .img-rounded {
     border-radius: 6px
 }
