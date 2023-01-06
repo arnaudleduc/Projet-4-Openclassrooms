@@ -695,6 +695,10 @@ p {
     padding-left: 10px;
 }
 
+.footer-link-list li {
+    margin-bottom: 8px;
+}
+
 .citation-text {
     font-size: 20px;
     font-style: italic;
